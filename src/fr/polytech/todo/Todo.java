@@ -58,7 +58,7 @@ public class Todo {
 		
 	}
 	
-	public static void main(){
+	public static void main(String[] args){
 		Todo todo = new Todo(1, "test", "blabla");
 		System.out.println(todo.toString());
 		
